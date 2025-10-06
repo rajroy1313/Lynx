@@ -2,19 +2,19 @@
 
 module.exports = {
   token:
-    process.env.DISCORD_TOKEN || "MTM5OTE4Njk2Nzk2NjUxOTMyNg.GLDefb.-o",
-  clientId: process.env.CLIENT_ID || "1399186967966519326",
-  prefix: process.env.PREFIX || ">",
-  ownerID: process.env.OWNER_ID || "870179991462236170",
-  SpotifyID: process.env.SPOTIFY_ID || "85aab1d51a174aad9eed6d7989f530e6",
-  SpotifySecret: process.env.SPOTIFY_SECRET || "b2ad05aa725e434c88776a1be8eab6c2",
+    "MTM5OTE4Njk2Nzk2NjUxOTMyNg.GLDefb.-o",
+  clientId: "1399186967966519326",
+  prefix: ">",
+  ownerID: "870179991462236170",
+  SpotifyID: "85aab1d51a174aad9eed6d7989f530e6",
+  SpotifySecret: "b2ad05aa725e434c88776a1be8eab6c2",
   mongourl:
-    process.env.MONGO_URL || "mongodb+srv://codex-in2:codex-in2@codex-in2.gjv2c.mongodb.net/?retryWrites=true&w=majority",
+    "mongodb+srv://codex-in2:codex-in2@codex-in2.gjv2c.mongodb.net/?retryWrites=true&w=majority",
   embedColor: "#2f3136",
-  logs: process.env.LOGS_WEBHOOK || "https://discord.com/api/webhooks/1399187361694482462/--yD8NpadUuQJ2_XG8tfWRraU1MnDyRhtnpqr825pDo",
+  logs: "https://discord.com/api/webhooks/1399187361694482462/--yD8NpadUuQJ2_XG8tfWRraU1MnDyRhtnpqr825pDo",
   node_source: "ytsearch",
   topgg:
-    process.env.TOPGG_TOKEN || "here",
+    "here",
   links: {
     BG: "https://cdn.discordapp.com/attachments/1061636453437804544/1186002755924525166/20231217_232106.jpg",
     support: "https://discord.gg/urV9mkfW9t",
