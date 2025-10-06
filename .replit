@@ -1,6 +1,30 @@
 modules = ["nodejs-20"]
 [nix]
-packages = ["unzip"]
+packages = ["unzip", "libuuid"]
+channel = "stable-25_05"
 
 [agent]
 expertMode = true
+
+[workflows]
+runButton = "Project"
+
+[[workflows.workflow]]
+name = "Project"
+mode = "parallel"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Discord Bot"
+
+[[workflows.workflow]]
+name = "Discord Bot"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "cd Arrkiii-main && npm start"
+
+[workflows.workflow.metadata]
+outputType = "console"
